@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ff-title: "Jacquard 12", system-ui;
+    --ff-menu: "Anta", sans-serif;
+    --bg-primary: #fff;
+    --fc-primary: #000;
+    font-size: 62.5%;
+}
+
+.header{
+    font-family: var(--ff-menu);
+    font-size: 2rem;
+
+    
+
+    display: flex;
+    justify-content: flex-end;
+}

@@ -22,4 +22,5 @@
 
 .aboutme {
     display: flex;
+    align-items: center;
 }

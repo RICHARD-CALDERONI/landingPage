@@ -26,14 +26,20 @@ div.header{
     justify-content: flex-end;
 }
 
+section{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 section .sobremim {
     display: flex;
     align-items: center;
-
 }
 
 section .sobremim img{
     max-width: 100px;
+    border-radius: 3rem;
 }
 
 footer, h1{

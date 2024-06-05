@@ -17,6 +17,8 @@ body{
     font-size: 62.5%;
 }
 
+/*estilização da barra superior*/
+
 div.header{
     font-family: var(--ff-menu);
     font-size: 2rem;
@@ -26,10 +28,10 @@ div.header{
     justify-content: flex-end;
 }
 
+/* Estilização do conteúdo central */
+
 section{
     padding: 4rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 section .sobremim {
@@ -42,6 +44,10 @@ section .sobremim img{
     border-radius: 3rem;
 }
 
+section 
+
+
+/* Estilização da barra inferior */
 footer, h1{
     display: flex;
     justify-content:end;

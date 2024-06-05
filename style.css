@@ -3,15 +3,21 @@
     padding: 0;
 }
 
+body{
+    background-color:var(--bg-secondary) ;
+    color: var(--fc-primary);
+}
+
 :root {
     --ff-title: "Jacquard 12", system-ui;
     --ff-menu: "Anta", sans-serif;
     --bg-primary: #fff;
-    --fc-primary: #000;
+    --bg-secondary: #3f1111;
+    --fc-primary: #ffffff;
     font-size: 62.5%;
 }
 
-.header{
+div.header{
     font-family: var(--ff-menu);
     font-size: 2rem;
     padding: 1rem;
@@ -20,7 +26,17 @@
     justify-content: flex-end;
 }
 
-.aboutme {
+section .sobremim {
     display: flex;
     align-items: center;
+
+}
+
+section .sobremim img{
+    max-width: 100px;
+}
+
+footer, h1{
+    display: flex;
+    justify-content:end;
 }

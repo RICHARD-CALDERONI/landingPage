@@ -14,9 +14,13 @@
 .header{
     font-family: var(--ff-menu);
     font-size: 2rem;
-
-    
+    padding: 1rem;
 
     display: flex;
     justify-content: flex-end;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
 }

@@ -1,54 +1,16 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: 0;
 }
 
-body{
-    background-color:var(--bg-secondary) ;
-    color: var(--fc-primary);
-}
+/* Variáveis */
 
 :root {
     --ff-title: "Jacquard 12", system-ui;
-    --ff-menu: "Anta", sans-serif;
-    --bg-primary: #fff;
-    --bg-secondary: #3f1111;
-    --fc-primary: #ffffff;
+    --ff-primary: "Anta", sans-serif;
+    --bg-primary: "";
+    --fc-primary: "";
     font-size: 62.5%;
 }
 
-/*estilização da barra superior*/
-
-div.header{
-    font-family: var(--ff-menu);
-    font-size: 2rem;
-    padding: 1rem;
-
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Estilização do conteúdo central */
-
-section{
-    padding: 4rem;
-}
-
-section .sobremim {
-    display: flex;
-    align-items: center;
-}
-
-section .sobremim img{
-    max-width: 100px;
-    border-radius: 3rem;
-}
-
-section 
-
-
-/* Estilização da barra inferior */
-footer, h1{
-    display: flex;
-    justify-content:end;
-}

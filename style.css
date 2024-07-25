@@ -9,8 +9,28 @@
 :root {
     --ff-title: "Jacquard 12", system-ui;
     --ff-primary: "Anta", sans-serif;
-    --bg-primary: "";
+    --bg-primary: #89A9E5;
     --fc-primary: "";
     font-size: 62.5%;
 }
 
+
+
+body .header{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5rem;
+
+
+    background-color: var(--bg-primary);
+
+
+    border-radius: 0 0 1.0rem 1.0rem;
+}
+
+body .apresentacao .imagem{
+    display: block;
+}
+
+}
